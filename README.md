@@ -117,13 +117,7 @@ This tutorial will guide you through downloading, configuring, forking, and depl
 - If you want to make changes, you can either:
   - **Fork** the project (by clicking "Fork" on GitHub) to create a copy under your GitHub account.
   - **Create a new repository** on GitHub to host a modified version of the project.
-
-- ⚠️ Sur GitHub configurer sa pour avoir des envois automatiques des Push dans les repository sur Render ⚠️
-  - In the repository go to `Settings`
-  - `Security` -> `Secret and variables` -> `Actions`
-  - Create a `New repository secret`
-  - Add a the name "RENDER"
-
+  
 ### Sub-steps to Fork the Project
 
 - Go to the project page on GitHub.
@@ -187,6 +181,21 @@ This tutorial will guide you through downloading, configuring, forking, and depl
 - Click **Create New Project**.
 - Name your project (e.g., "My AngularJS Project").
 - Select your GitHub repository (the one where you pushed the project in `deployApp`).
+
+
+
+
+
+
+
+⚠️ On GitHub, configure it to enable automatic push notifications to the repositories on Render ⚠️  
+- In the repository, go to `Settings`  
+- Click on `Security` -> `Secrets and variables` -> `Actions`  
+- Create a `New repository secret`  
+- Add the name "RENDER"  
+- Set the value that you can get after creating your account  
+- In your project `Settings`, copy the `Deploy hook` and paste it as the value  
+
 
 ---
 
