@@ -192,8 +192,6 @@ This tutorial will guide you through downloading, configuring, forking, and depl
 
 The next steps will include configuring deployment settings and launching the project on Render.
 
-**--TUTORIAL IN PROGRESS--**
-
 # Other
 
 ## Links
